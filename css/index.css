@@ -1,4 +1,25 @@
 header,
 footer {
   background-color: #ff006e;
+  color: aliceblue;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header {
+  font-size: 18px;
+}
+
+footer {
+  line-height: 1.5;
+}
+
+body {
+  margin: 1.25;
+}
+
+p img {
+  float: right;
+  margin: 10px;
+  border: 1px solid black;
 }
