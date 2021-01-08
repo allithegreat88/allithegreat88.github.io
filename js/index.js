@@ -1,2 +1,4 @@
-const options = {day: "numeric", month: "numeric", year: "numeric"};
-document.getElementById("last_updated").textContent = new Date().toLocaleDateString('en-US', options)
+const year = {year: "numeric"};
+document.getElementById("current_year").textContent = new Date().toLocaleDateString('en-US', year);
+
+let  = new Date(document.lastModified);
