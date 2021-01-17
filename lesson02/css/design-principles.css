@@ -1,0 +1,68 @@
+header {
+  background-color: #ff006e;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  background-color: #ff006e;
+  color: white;
+  padding: 1%;
+  margin: 0;
+}
+
+h3 {
+  background-color: #ff62a6;
+  color: white;
+  padding: 1%;
+  margin: 0;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  margin: 3px;
+}
+
+/* Mobile VIEW */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1%;
+}
+
+/* Tablet VIEW */
+@media only screen and (min-width: 37.5em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
+  }
+}
+
+/* Desktop VIEW */
+@media only screen and (min-width: 60em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+  }
+}
+
+section {
+  border-style: solid;
+  border-color: black;
+}
