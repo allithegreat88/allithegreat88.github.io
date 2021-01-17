@@ -37,6 +37,10 @@ p {
   margin: 3px;
 }
 
+a {
+  color: white;
+}
+
 /* Mobile VIEW */
 main {
   display: grid;
@@ -65,4 +69,9 @@ main {
 section {
   border-style: solid;
   border-color: black;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
 }
