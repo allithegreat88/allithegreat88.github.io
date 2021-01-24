@@ -1,0 +1,74 @@
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+}
+
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f1f9f8;
+  display: block;
+}
+
+h1{
+  background-color: ;
+}
+
+header {
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav {
+  font-size: 18pt;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #457B9D;
+  padding: 5px;
+}
+
+
+
+/* Mobile VIEW */
+main {
+}
+
+/* Tablet VIEW */
+@media only screen and (min-width: 37.5em) {
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  header li {
+    display: inline;
+    padding: 8px;
+  }
+
+  h1{
+    font-size = 60px;
+  }
+}
+
+.colors_pic {
+  width: 100%;
+}
